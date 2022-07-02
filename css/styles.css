@@ -1,145 +1,160 @@
-#title {
-    background-color: #FF4C68;
-    color:#fff;
-}
 
-body {
-    font-family: 'Monserrat';
-}
-
-.container-fluid {
-    padding: 3% 15%;
-}
-
-/* Title */
-.big-heading {
+body{
+    font-family: "Montserrat-Black";
+    text-align:center;
+  }
+  
+  h1, h2, h3, h4, h5, h6{
+    font-family:"Montserrat";
+  }
+  
+  p{
+    color:#8F8F8F;
+  }
+  
+  
+  /* Headings */
+  
+  .big-heading{
     font-family: 'Montserrat', sans-serif;
-    color: white;
     font-size:3.5rem;
     line-height:1.5;
     font-weight:900;
-}
-
-/* navbar */
-.navbar {
-    padding: 0 0 4.5rem;
-}
-
-.navbar-brand {
-    font-family:'Ubuntu';
-    font-size: 2.5rem;
+  }
+  
+  .section-heading{
+    font-size:3rem;
+    line-height: 1.5;
+  }
+  
+  /* Containers */
+  
+  .container-fluid{
+    padding: 7% 15%;
+  }
+  
+  
+  /* Sections */
+  
+  .colored-section{
+  background-color: #FF4C68;
+  color:#fff;
+  }
+  
+  .white-section{
+  background-color: #fff;
+  }
+  
+  
+  /* Navigation bar */
+  
+  .navbar{
+    padding:0 0 4.5rem;
+  }
+  
+  .navbar-brand{
+    font-family:'Ubuntu', sans-serif;
+    font-size:2.5rem;
     font-weight:bold;
-}
-.nav-link {
-    font-size: 1.2rem;
-    font-family: 'Montserrat-Light', sans-serif;
-}
-
-.nav-item {
-    padding: 0 18px;
-}
-
-/* downlaod buttons */
-.download-buttons {
-    font-family: 'Montserrat-Light', sans-serif;
-    margin: 5% 3% 5% 0;
-}
-
-/* TitleImg */
-.title-img {
-    width:55%;
+  }
+  
+  .nav-item{
+    padding:0 18px;
+  }
+  
+  .nav-link{
+    font-size:1.2rem;
+    font-family:"Montserrat-light";
+  }
+  
+  
+  /* Download Buttons */
+  
+  .btn{
+    margin:0 10px 0 0;
+  }
+  
+  .download-button{
+    margin:5% 3% 5% 0;
+  }
+  
+  
+  /* Title Section */
+  
+  #title .container-fluid{
+    padding:3% 15% 7%;
+    text-align: left;
+  }
+  
+  /* Title Image */
+  
+  .title-img{
+    width:60%;
     transform: rotate(25deg);
+    position:absolute;
     right:30%;
-
-}
-
-#features {
-    position: relative;
-}
-
-/* Features-section */
-.features-row {
-    margin: 5% 3% 5% 0;
-}
-.features-column {
+  }
+  
+  
+  /* Features Section */
+  #features{
+    position:relative;
+  }
+  
+  .feature-title{
+    font-size:1.5rem;
+  }
+  
+  .feature-box{
     padding:5%;
-    text-align: center;
-}
-
-.features-heading {
-    font-family: 'Montserrat-Light', sans-serif;
-    font-size: 1.5rem;
-    font-weight: 800;
-}
-
-.features-paragraph {
-    font-family: 'Montserrat-Light', sans-serif;
-    color: #8f8f8f;
-}
-
-/* features-icons */
-.fa-solid {
-    padding-bottom: 20px;
-    color: #ef8172;
-    transition: color 0.5s ease-out;
-    
-}
-
-.fa-solid:hover {
-    color: #FF4C68;
-}
-
-
-
-/* testimonial-section */
-
-#testimonials {
-    
-    text-align: center;
-    background-color: #ef8172;
-}
-
-.testimonial-heading {
-    color: white;
-    font-family: 'Montserrat';
+  }
+  
+  
+  
+  .icon{
+    color:#EF8172;
+    margin-bottom:1rem;
+  }
+  
+  .icon:hover{
+    color:#FF4C68;
+  }
+  
+  
+  /* Testimonial Section */
+  
+  #testimonials{
+    background-color:#EF8172;
+    color:#fff;
+  }
+  
+  .testimonial-text{
     font-size: 3rem;
     line-height: 1.5;
-}
-
-em {
-    color: white;
-}
-
-.testimonial-img {
-    margin: 20px;
-    width: 10%;
-    border-radius: 100%;
-}
-
-/* press */
-
-#press {
-    background-color: #ef8172;
-    text-align: center;
-    padding-bottom: 3%;
-}
-
-.press-img {
-    padding: 20px 20px;
-    width: 15%;
-}
-
-
-.carousel-item {
-    padding: 7% 15%;
-}
-
-/* pricing */
-
-#pricing{
+  }
+  
+  .testimonial-image{
+    width:10%;
+    border-radius:100%;
+    margin:20px;
+  }
+  
+  #press{
+    background-color: #EF8172;
+    padding-bottom:3%;
+  }
+  
+  .press-logo{
+    width:15%;
+    margin:20px 20px 50px;
+  }
+  
+  
+  /* Pricing Section */
+  
+  #pricing{
     padding:100px;
     text-align: center;
-    font-family:'Ubuntu';
   }
   
   .price-text{
@@ -150,8 +165,10 @@ em {
   .pricing-column{
     padding:3% 2%;
   }
-
-  /* footer */
+  
+  
+  /* footer section */
+  
   #footer{
     text-align: center;
     background-color: #fff;
@@ -161,18 +178,7 @@ em {
     margin: 20px 10px;
   }
   
-  #cta {
-    text-align: center;
-  }
-
-  .colored-section{
-    background-color: #FF4C68;
-    color:#fff;
-    }
-    
-    .white-section{
-        background-color: #fff;
-    }
+  
   
   
   @media (max-width : 992px){
